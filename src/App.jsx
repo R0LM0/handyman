@@ -1,17 +1,14 @@
 import React from 'react'
+import { Routing } from './router/Routing'
 
 
 function App() {
 
   return (
-    <>
-      <div>
 
-        <p className="text-dark animate-blurred-fade-in">
-          Hola Mundo
-        </p>
-      </div>
-    </>
+    <Routing />
+
+
   )
 }
 
